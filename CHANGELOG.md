@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Mesh classifier module** - `util/mesh_classifier.py` for complexity analysis
 
 ### Changed
-- Updated to **Blender 5.0** compatibility
+- Better compatibility with **Blender 5.0+**
 - Updated maintainer attribution to me, "Tabzy"
 - Verbose logging OFF by default for cleaner user experience
 - Development documentation added to `Docs/TODO.md`
@@ -41,7 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.0 - 1.3.0] - Foundational Updates
 
 ### Added
-- Accurate compatibility with Blender 5.0+
+- Initial compatibility with Blender 5.0+
 - Misellaneous optimizations
 
 ## [Prior Versions]
