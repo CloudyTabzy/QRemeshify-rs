@@ -1,0 +1,53 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "qremeshify_rs"
+version = "0.1.0"
+description = "High-performance mesh processing extension for QRemeshify"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+    {name = "QRemeshify Contributors"}
+]
+keywords = ["blender", "mesh", "quadrangulation", "remeshing", "geometry"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Multimedia :: Graphics :: 3D Modeling",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.urls]
+Homepage = "https://github.com/QRemeshify/QRemeshify"
+Documentation = "https://github.com/QRemeshify/QRemeshify#readme"
+Repository = "https://github.com/QRemeshify/QRemeshify"
+Issues = "https://github.com/QRemeshify/QRemeshify/issues"
+
+[tool.maturin]
+# Build configuration
+profile = "release"
+features = ["pyo3/extension-module"]
+strip = true
+
+# Python source location (for mixed projects)
+python-source = "python"
+module-name = "qremeshify_rs._lib"
+
+# Include files for distribution
+include = [
+    {path = "README.md", format = "wheel"},
+]
+
+# Platform compatibility
+compatibility = "manylinux2014"

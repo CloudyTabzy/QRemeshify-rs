@@ -1,0 +1,33 @@
+[package]
+name = "qremeshify_rs"
+version = "0.1.0"
+edition = "2021"
+description = "High-performance mesh processing extension for QRemeshify"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+authors = ["QRemeshify Contributors"]
+repository = "https://github.com/QRemeshify/QRemeshify"
+rust-version = "1.75"
+
+[lib]
+name = "qremeshify_rs"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+pyo3-build-config = { version = "0.24", features = ["resolve-config"] }
+
+[dependencies]
+pyo3 = { version = "0.24", features = ["auto-initialize"] }
+numpy = "0.24"
+rayon = "1.10"
+thiserror = "2.0"
+memmap2 = "0.9"
+
+[dev-dependencies]
+tempfile = "3.14"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
