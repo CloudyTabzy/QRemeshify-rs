@@ -1,5 +1,5 @@
 name: Feature Request
-description: Suggest a new feature or improvement for QRemeshify
+description: Suggest a new feature or improvement for QRemeshify-rs
 labels: ["enhancement"]
 body:
   - type: markdown
