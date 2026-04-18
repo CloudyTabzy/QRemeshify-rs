@@ -4,7 +4,7 @@
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 [![Blender 5.0+](https://img.shields.io/badge/Blender-5.0%2B-orange.svg)](https://blender.org)
 
-A Blender extension for an easy-to-use remesher that outputs good-quality quad topology.
+A Blender extension for an easy-to-use remesher that outputs good-quality quad topology. Fork of the original [QRemeshify](https://github.com/ksami/QRemeshify) but with **Rust** implementations for optimization and performance. Completely compatible with Blender 5.0+!
 
 ## Features
 
