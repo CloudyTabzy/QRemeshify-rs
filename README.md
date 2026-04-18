@@ -1,4 +1,4 @@
-# QRemeshify
+# QRemeshify-rs
 
 [![GitHub stars](https://img.shields.io/github/stars/TabzyCreative/QRemeshify?style=social)](https://github.com/TabzyCreative/QRemeshify/stargazers)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
@@ -11,6 +11,7 @@ A Blender extension for an easy-to-use remesher that outputs good-quality quad t
 - Good-quality quad topology even with basic usage
 - **Rust-accelerated** OBJ I/O for faster processing (auto-detected)
 - Adaptive mesh-size optimization (TINY → HUGE routing)
+- Proper progress bar on the mouse cursor to know it's progressing
 - Supports symmetry along X/Y/Z axes
 - Guide edge flow with edges marked seams/sharp/material boundary/face set boundary
 - Options for advanced fine-tuning available
@@ -19,7 +20,7 @@ A Blender extension for an easy-to-use remesher that outputs good-quality quad t
 ## Requirements
 
 - **Blender 5.0 and above** (with 4.2 LTS fallback)
-- Windows, macOS, or Linux
+- Windows (macOS and Linux not considered yet)
 
 ## Installation
 
@@ -31,9 +32,9 @@ A Blender extension for an easy-to-use remesher that outputs good-quality quad t
 
 ## Usage
 
-QRemeshify can be accessed from the 3D View N-Panel (Press `N` in 3D View) while in Object mode.
+QRemeshify can be accessed from the 3D View N-Panel (Press `N` in 3D View) while only in Object mode.
 
-**Tip:** Save often! Remeshing time depends on mesh complexity.
+**Tip:** Save often! Remeshing time depends on mesh complexity, even with optimization.
 
 ## Settings
 
@@ -103,7 +104,7 @@ flowchart TD
 
 ```bash
 # Clone the repository
-git clone https://github.com/TabzyCreative/QRemeshify.git
+git clone https://github.com/CloudyTabzy/QRemeshify-rs.git
 cd QRemeshify
 
 # Rebuild Rust extension (optional, Windows only shown)
