@@ -20,7 +20,7 @@ A Blender extension for an easy-to-use remesher that outputs good-quality quad t
 ## Requirements
 
 - **Blender 5.0 and above** (with 4.2 LTS fallback)
-- Windows (macOS and Linux not considered yet)
+- Windows (macOS and Linux not supported yet)
 
 ## Installation
 
