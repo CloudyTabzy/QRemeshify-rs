@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Updated to **Blender 5.0** compatibility
-- Updated maintainer attribution to "Tabzy"
+- Updated maintainer attribution to me, "Tabzy"
 - Verbose logging OFF by default for cleaner user experience
 - Development documentation added to `Docs/TODO.md`
 
@@ -37,6 +37,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rust extension skeleton (`qremeshify_rs/`)
 - PyO3 integration framework
 - Parallel processing infrastructure
+
+## [1.1.0 - 1.3.0] - Foundational Updates
+
+### Added
+- Accurate compatibility with Blender 5.0+
+- Misellaneous optimizations
 
 ## [Prior Versions]
 
