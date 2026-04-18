@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/TabzyCreative/QRemeshify/discussions
+    about: For questions, tips, and general discussion
+  - name: Blender Artists Forum
+    url: https://blenderartists.org/
+    about: General Blender community support

@@ -1,0 +1,84 @@
+name: Bug Report
+description: Report a bug or issue with QRemeshify
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+
+        **Please fill out ALL fields. Incomplete reports may be closed.**
+
+  - type: dropdown
+    id: blender-version
+    attributes:
+      label: Blender Version
+      options:
+        - Blender 5.0 (stable)
+        - Blender 5.1+ (development)
+        - Blender 4.2 LTS
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Linux
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      placeholder: |
+        Clear description of the bug...
+        What did you expect to happen?
+        What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Open Blender
+        2. Create/select mesh
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error Messages / Console Output
+      placeholder: |
+        Copy any error messages from the console (Window > Toggle System Console)
+        or Info panel here.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      placeholder: |
+        Mesh vertex/face count if known?
+        Mesh type (organic, mechanical, scanned)?
+        Any modifiers applied?
+
+  - type: textarea
+    id: verbose
+    attributes:
+      label: Verbose Logging Output
+      description: |
+        Enable "Verbose Logging" in addon preferences, reproduce the bug,
+        and paste the output from the Info panel here.
+      placeholder: |
+        (Optional but helpful for debugging)

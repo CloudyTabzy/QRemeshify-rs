@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a new feature or improvement for QRemeshify
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature!
+
+        **Please fill out ALL fields. Vague requests may be closed.**
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Limitation
+      placeholder: |
+        What problem does this solve? What is frustrating about the current workflow?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      placeholder: |
+        How would you like it to work? Be specific.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      placeholder: |
+        What other approaches did you consider?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      placeholder: |
+        Use case? Mesh types this would help?
+        Any references (other software, papers, screenshots)?
