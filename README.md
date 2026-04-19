@@ -1,6 +1,6 @@
 # QRemeshify-rs
 
-[![GitHub stars](https://img.shields.io/github/stars/TabzyCreative/QRemeshify?style=social)](https://github.com/TabzyCreative/QRemeshify/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/CloudyTabzy/QRemeshify?style=social)](https://github.com/CloudyTabzy/QRemeshify/stargazers)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 [![Blender 5.0+](https://img.shields.io/badge/Blender-5.0%2B-orange.svg)](https://blender.org)
 
@@ -24,7 +24,7 @@ A Blender extension for an easy-to-use remesher that outputs good-quality quad t
 
 ## Installation
 
-1. Download the latest `QRemeshify-v*.zip` from [Releases](https://github.com/TabzyCreative/QRemeshify/releases)
+1. Download the latest `QRemeshify-v*.zip` from [Releases](https://github.com/CloudyTabzy/QRemeshify/releases)
 2. Open Blender → *Edit → Preferences → Add-ons*
 3. Click the arrow pointing down on the top right
 4. Click *Install from Disk...* and select the downloaded zip file
@@ -162,8 +162,8 @@ Contributions welcome! Please read our guidelines and submit PRs.
 
 ## Support
 
-- [GitHub Issues](https://github.com/TabzyCreative/QRemeshify/issues) - Bug reports
-- [GitHub Discussions](https://github.com/TabzyCreative/QRemeshify/discussions) - Q&A and tips
+- [GitHub Issues](https://github.com/CloudyTabzy/QRemeshify/issues) - Bug reports
+- [GitHub Discussions](https://github.com/CloudyTabzy/QRemeshify/discussions) - Q&A and tips
 
 ## Changelog
 
